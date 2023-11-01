@@ -1,0 +1,98 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+  width: 1000px;
+  height: 300px;
+}
+
+body {
+  background-image: url("./images/stars.gif");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background-repeat: repeat;
+}
+
+.title {
+  color: #ffffffff;
+  text-align: center;
+  margin: 5vh auto;
+  font-size: calc(3vw + 5px);
+  text-shadow: 0 0 10px purple, 0 0 10px blue, 0 0 10px purple;
+  font-family: 'Starjedi', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+}
+
+#timerDisplay {
+  font-size: 24px;
+  color: #5a00ba;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  position:fixed;
+  top: 0;
+
+}
+
+#playButton {
+  display:block; 
+  margin-top: 40px;
+  background-color: #5a00ba;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  position:fixed;
+  top: 0;
+}
+
+#pauseButton {
+  display:block; 
+  margin-top: 11.5px;
+  background-color: #5a00ba;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  position:fixed;
+  left: 90px;
+}
+
+
+.points {
+  color: #ffffffff;
+  text-align: center;
+  margin: 5vh auto;
+  font-size: calc(0vw + 20px);
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+  font-family: 'HyperSuperRegular', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+  position: flex;
+  left: 0;
+}
+
+
+@font-face {
+  font-family: 'Starjedi';
+  src: 
+  url('Starjedi.woff2') format('woff2'), 
+  url('Starjedi.woff') format('woff'),
+  url('Starjedi.ttf')' format('truetype'); 
+}
+
+.name {
+  font-size: calc(0vw + 30px);
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+  text-align: center;
+  color: #ffffffff;
+  background-color: #004AAD;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 40vh auto;
+  position:flex;
+  font-family: 'Starjedi', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+}
