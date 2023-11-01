@@ -4,7 +4,7 @@ October Automation Team Challenge: Memory Game
 ![Badge Complete](https://img.shields.io/badge/status-complete-blue)
 ![Badge Release Date](https://img.shields.io/badge/release%20date-october-red)
 
-![r2d2]([https://64.media.tumblr.com/7349f4a494a2b705206c2434083735e3/72a515ccfdbe5110-1f/s400x600/005a51510cac3502a3f2b1a18dda6219c25d4675.gif](https://gifdb.com/images/high/star-wars-bb-8-robot-thumbs-up-2mzcbjz679tizah2.gif])
+![r2d2](https://gifdb.com/images/high/star-wars-bb-8-robot-thumbs-up-2mzcbjz679tizah2.gif)
 
 # *Project Overview*
 
